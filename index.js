@@ -28,7 +28,7 @@ function identifyFromObjects(object) {
 }
 
 function attributesToPhrase(list) {
-  list.map(identifyFromObjects)
+  return list.map(identifyFromObjects)
 }
 
 
